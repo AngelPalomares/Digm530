@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour {
 	//The speed of the play
 	[SerializeField]
 	private float movespeed;
+	//Animator for the character
+	[SerializeField]
+	private Animator Myanim;
 	// Use this for initialization
 	void Start () {
 		
@@ -19,5 +22,18 @@ public class PlayerController : MonoBehaviour {
 
 		//function that makes the player move
 		TheRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * movespeed;
+
+		//Animator for the character
+		Myanim.SetFloat("moveX", TheRB.velocity.x);
+		Myanim.SetFloat("moveY", TheRB.velocity.y);
+
+		if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 ||
+			Input.GetAxisRaw("Vertical") == -1)
+        {
+			Myanim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
+			Myanim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+				
+		}
+
 	}
 }

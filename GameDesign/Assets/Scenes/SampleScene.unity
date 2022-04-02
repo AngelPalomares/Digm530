@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 1605241537}
   - component: {fileID: 1605241539}
   - component: {fileID: 1605241538}
+  - component: {fileID: 1605241540}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -302,7 +303,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1605241539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,7 +316,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TheRB: {fileID: 1605241538}
-  movespeed: 10
+  movespeed: 5
+  Myanim: {fileID: 1605241540}
+--- !u!95 &1605241540
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1605241534}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 357089b9bf4ec284d9e63722d410c3b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1931744861
 GameObject:
   m_ObjectHideFlags: 0
