@@ -53,7 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AreaEntrance.cs" />
+     <Compile Include="Assets\Scripts\AreaExit.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerLoader.cs" />
      <None Include="Assets\Udemy RPG Assets\Licence.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Owner/Documents/GitHub/Digm530/GameDesign/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

@@ -12,9 +12,25 @@ public class PlayerController : MonoBehaviour {
 	//Animator for the character
 	[SerializeField]
 	private Animator Myanim;
+	//
+	public static PlayerController instance;
+
+	[SerializeField]
+	public string AreaTransitionName;
+
 	// Use this for initialization
 	void Start () {
-		
+
+		if(instance == null)
+        {
+			instance = this;
+        }
+        else
+        {
+			Destroy(gameObject);
+        }
+
+		DontDestroyOnLoad(gameObject);
 	}
 	
 	// Update is called once per frame
