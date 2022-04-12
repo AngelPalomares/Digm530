@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField]
 	public string AreaTransitionName;
 
+	//This limits the player where they are going
+	private Vector3 bottomLeftLimity, ToprightLimity;
+
 	// Use this for initialization
 	void Start () {
 
@@ -51,5 +54,13 @@ public class PlayerController : MonoBehaviour {
 				
 		}
 
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimity.x, ToprightLimity.x), Mathf.Clamp(transform.position.y, bottomLeftLimity.y, ToprightLimity.y), transform.position.z);
+
 	}
+
+	public void Setbounds(Vector3 BottomLeft, Vector3 TopRight)
+    {
+		bottomLeftLimity = BottomLeft + new Vector3 (.5f,1f,0f);
+		ToprightLimity = TopRight + new Vector3(-.5f,-1f,0f);
+    }
 }

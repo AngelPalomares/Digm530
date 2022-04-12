@@ -176,13 +176,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1141005520743770, guid: 5b0e6dba2fbaa0b429186f95133bc56c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4406694372855286, guid: 5b0e6dba2fbaa0b429186f95133bc56c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.13
+      value: 0.481
       objectReference: {fileID: 0}
     - target: {fileID: 4406694372855286, guid: 5b0e6dba2fbaa0b429186f95133bc56c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.15
+      value: -0.721
       objectReference: {fileID: 0}
     - target: {fileID: 4513077223414814, guid: 5b0e6dba2fbaa0b429186f95133bc56c, type: 3}
       propertyPath: m_RootOrder
@@ -235,6 +239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: 0.46809232
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051094564873946, guid: 5b0e6dba2fbaa0b429186f95133bc56c,
+        type: 3}
+      propertyPath: AreatoLoad
+      value: Office_Level
       objectReference: {fileID: 0}
     - target: {fileID: 114051094564873946, guid: 5b0e6dba2fbaa0b429186f95133bc56c,
         type: 3}

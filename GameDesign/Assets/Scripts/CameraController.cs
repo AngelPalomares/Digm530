@@ -26,6 +26,8 @@ public class CameraController : MonoBehaviour {
 		BottomLeftLimit = Themap.localBounds.min + new Vector3(HalfWidth,Halfheight,0f);
 		TopRightLimit = Themap.localBounds.max + new Vector3(-HalfWidth,-Halfheight,0f);
 
+		//sets the bounds to how far the character can walk
+		PlayerController.instance.Setbounds(Themap.localBounds.min, Themap.localBounds.max);
 
 	}
 	
