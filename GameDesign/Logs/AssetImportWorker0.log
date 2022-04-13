@@ -15,11 +15,19 @@ C:/Users/norma/Documents/GitHub/Digm530/GameDesign
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 56080
 Successfully changed project path to: C:/Users/norma/Documents/GitHub/Digm530/GameDesign
 C:/Users/norma/Documents/GitHub/Digm530/GameDesign
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 221.29 ms, found 2 plugins.
+=======
+58763
+Successfully changed project path to: C:/Users/Owner/Documents/GitHub/Digm530/GameDesign
+C:/Users/Owner/Documents/GitHub/Digm530/GameDesign
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.72 ms, found 2 plugins.
+>>>>>>> parent of 5abd40d (Update)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -32,6 +40,7 @@ Direct3D:
     VRAM:     4019 MB
     Driver:   30.0.14.9649
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
@@ -66,6 +75,42 @@ System memory in use after: 80.6 MB.
 
 Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2356.
 Total: 13.523500 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.272900 ms MarkObjects: 12.772300 ms  DeleteObjects: 0.145200 ms)
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001403 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.628 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 5.251000 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.074300 ms MarkObjects: 4.895600 ms  DeleteObjects: 0.064800 ms)
+>>>>>>> parent of 5abd40d (Update)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,6 +125,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/BG.png
   artifactKey: Guid(ec7786913bbb0694ba0c3ef8b421aba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/BG.png using Guid(ec7786913bbb0694ba0c3ef8b421aba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a358e8937adc3ec8ff4ec0837b0a4efc') in 0.477756 seconds 
@@ -124,4 +170,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  path: Assets/Scenes/Office_Level.unity
+  artifactKey: Guid(609111b73cfd0614fb52b619f967f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Office_Level.unity using Guid(609111b73cfd0614fb52b619f967f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861e1261e0d8b9658c79a38949e1a2c9') in 0.012061 seconds 
+  Import took 0.014675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.199984 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dce4b596e8f5ff1907e9d81db6a259') in 0.002970 seconds 
+  Import took 0.005429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.881301 seconds.
+  path: Assets/Udemy RPG Assets
+  artifactKey: Guid(1f9116e22515aa948949b63c34e431ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets using Guid(1f9116e22515aa948949b63c34e431ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c6b479b6ded546b76adcbc3f85a63a') in 0.002834 seconds 
+  Import took 0.005742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581935 seconds.
+  path: Assets/Udemy RPG Assets/Art
+  artifactKey: Guid(b56a402e5850ab14c92616d1f0d5bf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art using Guid(b56a402e5850ab14c92616d1f0d5bf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef8294a2740d879281694cf31e46ae4') in 0.002760 seconds 
+  Import took 0.005812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.344217 seconds.
+  path: Assets/Tileset
+  artifactKey: Guid(aa2886afd0f6cb04b9c432d54ef5ae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset using Guid(aa2886afd0f6cb04b9c432d54ef5ae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb13800a1b1380e07b3d1a70f0dd53e') in 0.002629 seconds 
+  Import took 0.005419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.757842 seconds.
+  path: Assets/Udemy RPG Assets/Art/Effects/Slash.png
+  artifactKey: Guid(47ae1527db7c39f40834c28187b6ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/Effects/Slash.png using Guid(47ae1527db7c39f40834c28187b6ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4b23ec297f794deb0ade0fb35e9a1e') in 0.104406 seconds 
+  Import took 0.107727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.475779 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI
+  artifactKey: Guid(4fba08ef3410e104eba88785ab0726aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI using Guid(4fba08ef3410e104eba88785ab0726aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6552bedcc28932a1c53f583e3c324dc') in 0.003063 seconds 
+  Import took 0.005986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050284 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI/Battle_Panel.png
+  artifactKey: Guid(008b65da93878d24398fdc836e444766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI/Battle_Panel.png using Guid(008b65da93878d24398fdc836e444766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcb09e1cf87a79b4f924499534fe5ba') in 0.013610 seconds 
+  Import took 0.016214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI/Item Frame.png
+  artifactKey: Guid(730d492efa8d6944194f432cbb9eeef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI/Item Frame.png using Guid(730d492efa8d6944194f432cbb9eeef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314f14cd01753fa8556cb77bba5b336f') in 0.014848 seconds 
+  Import took 0.017243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI/Panel.png
+  artifactKey: Guid(afe4fb6836b063346b1702757681eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI/Panel.png using Guid(afe4fb6836b063346b1702757681eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0de8f2df1fcb21a0a7c345d00d46f87') in 0.009582 seconds 
+  Import took 0.012259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI/Button.png
+  artifactKey: Guid(84b3bb40ee35ce74c8a8f5850dd74a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI/Button.png using Guid(84b3bb40ee35ce74c8a8f5850dd74a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0130c7ba012ddcdc15d55edc02d20589') in 0.014408 seconds 
+  Import took 0.017059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.780528 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI/Panel.png
+  artifactKey: Guid(afe4fb6836b063346b1702757681eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI/Panel.png using Guid(afe4fb6836b063346b1702757681eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728eec33859b3a697eba0f0b10ce6275') in 0.007055 seconds 
+  Import took 0.010653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.517507 seconds.
+  path: Assets/Udemy RPG Assets/Art/UI/Panel.png
+  artifactKey: Guid(afe4fb6836b063346b1702757681eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Art/UI/Panel.png using Guid(afe4fb6836b063346b1702757681eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d33ed41b24b40bf9e0c341c70c028aa') in 0.014706 seconds 
+  Import took 0.017144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.231435 seconds.
+  path: Assets/Udemy RPG Assets/Fonts/Pixelnauts.ttf
+  artifactKey: Guid(416767b5bbdb3e24e8f385bece614050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Udemy RPG Assets/Fonts/Pixelnauts.ttf using Guid(416767b5bbdb3e24e8f385bece614050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d47d7b5e908570033b059cf618c5989') in 0.046048 seconds 
+  Import took 0.048825 seconds .
+
+>>>>>>> parent of 5abd40d (Update)
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

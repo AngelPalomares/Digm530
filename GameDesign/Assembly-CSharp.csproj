@@ -60,10 +60,14 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerLoader.cs" />
     <Compile Include="Assets\Scripts\AreaEntrance.cs" />
-    <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\dialogueManager.cs" />
     <Compile Include="Assets\Scripts\UIFade.cs" />
+=======
+    <Compile Include="Assets\Scripts\UIFade.cs" />
+    <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
+>>>>>>> parent of 5abd40d (Update)
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Udemy RPG Assets\Licence.txt" />

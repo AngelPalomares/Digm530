@@ -4656,8 +4656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.346985, y: -307.3626}
-  m_SizeDelta: {x: -52.174, y: -658.2029}
+  m_AnchoredPosition: {x: -4.346985, y: -471.739}
+  m_SizeDelta: {x: -52.174, y: -986.956}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1945374472
 MonoBehaviour:
@@ -4773,35 +4773,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946445573}
   m_CullTransparentMesh: 1
---- !u!1 &2071499546 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4791650997390197905, guid: 478e642bca4ac6c42a081e1d76b491a1,
-    type: 3}
-  m_PrefabInstance: {fileID: 162403761}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2071499547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071499546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a97ce733d968904da9a1c74d4187f89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DialoText: {fileID: 1591677260}
-  NameText: {fileID: 371605929}
-  dialogbox: {fileID: 1945374470}
-  namebox: {fileID: 1946445573}
-  Dialoglines:
-  - Hello
-  - 
-  - 
-  - 
-  - 
-  currentline: 0
 --- !u!1001 &8604909738675648373
 PrefabInstance:
   m_ObjectHideFlags: 0
