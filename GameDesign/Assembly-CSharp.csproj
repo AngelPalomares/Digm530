@@ -63,8 +63,13 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\dialogueManager.cs" />
     <Compile Include="Assets\Scripts\UIFade.cs" />
+=======
+    <Compile Include="Assets\Scripts\UIFade.cs" />
+    <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
+>>>>>>> parent of 5abd40d (Update)
 =======
     <Compile Include="Assets\Scripts\UIFade.cs" />
     <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
