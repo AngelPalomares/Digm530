@@ -15,15 +15,21 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 43
     width: 1920
     height: 997
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     x: 1281
     y: 51
     width: 1278
     height: 980
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_ShowMode: 4
   m_Title: Scene
@@ -47,10 +53,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1504
     y: 0
     width: 416
     height: 947
+=======
+    x: 1001
+    y: 0
+    width: 277
+    height: 930
+>>>>>>> parent of 5abd40d (Update)
 =======
     x: 1001
     y: 0
@@ -84,9 +97,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 606
     width: 1504
     height: 341
+=======
+    y: 596
+    width: 1001
+    height: 334
+>>>>>>> parent of 5abd40d (Update)
 =======
     y: 596
     width: 1001
@@ -121,6 +140,7 @@ MonoBehaviour:
     x: 0
     y: 30
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 679, y: 492}
@@ -128,12 +148,17 @@ MonoBehaviour:
   vertical: 0
   controlID: 69
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     width: 1278
     height: 930
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 48
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
 --- !u!114 &5
 MonoBehaviour:
@@ -153,8 +178,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 382
     height: 606
+=======
+    width: 254
+    height: 596
+>>>>>>> parent of 5abd40d (Update)
 =======
     width: 254
     height: 596
@@ -187,8 +217,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 997
+=======
+    width: 1278
+    height: 980
+>>>>>>> parent of 5abd40d (Update)
 =======
     width: 1278
     height: 980
@@ -217,7 +252,11 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
+=======
+    width: 1278
+>>>>>>> parent of 5abd40d (Update)
 =======
     width: 1278
 >>>>>>> parent of 5abd40d (Update)
@@ -245,8 +284,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 977
     width: 1920
+=======
+    y: 960
+    width: 1278
+>>>>>>> parent of 5abd40d (Update)
 =======
     y: 960
     width: 1278
@@ -274,12 +318,21 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1504
     height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 70
+=======
+    width: 1001
+    height: 930
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 22
+>>>>>>> parent of 5abd40d (Update)
 =======
     width: 1001
     height: 930
@@ -308,12 +361,21 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1504
     height: 606
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 71
+=======
+    width: 1001
+    height: 596
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 23
+>>>>>>> parent of 5abd40d (Update)
 =======
     width: 1001
     height: 596
@@ -338,15 +400,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 382
     y: 0
     width: 1122
     height: 606
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     x: 254
     y: 0
     width: 747
     height: 596
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -589,15 +657,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 679
     width: 1503
     height: 320
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     x: 1281
     y: 677
     width: 1000
     height: 313
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -614,7 +688,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Udemy RPG Assets/Art/UI
+>>>>>>> parent of 5abd40d (Update)
 =======
     - Assets/Udemy RPG Assets/Art/UI
 >>>>>>> parent of 5abd40d (Update)
@@ -624,7 +702,11 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/Udemy RPG Assets/Art/UI
+>>>>>>> parent of 5abd40d (Update)
 =======
   - Assets/Udemy RPG Assets/Art/UI
 >>>>>>> parent of 5abd40d (Update)
@@ -634,15 +716,21 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 77}
     m_SelectedIDs: 32710000
     m_LastClickedID: 28978
     m_ExpandedIDs: 000000003271000034710000367100003871000000ca9a3b
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     scrollPos: {x: 0, y: 75}
     m_SelectedIDs: 04430000
     m_LastClickedID: 17156
     m_ExpandedIDs: 00000000c8420000ca420000cc420000ce42000000ca9a3b
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -672,7 +760,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000032710000347100003671000038710000
+=======
+    m_ExpandedIDs: 00000000c8420000ca420000cc420000ce420000
+>>>>>>> parent of 5abd40d (Update)
 =======
     m_ExpandedIDs: 00000000c8420000ca420000cc420000ce420000
 >>>>>>> parent of 5abd40d (Update)
@@ -753,15 +845,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1504
     y: 73
     width: 415
     height: 926
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     x: 2282
     y: 81
     width: 276
     height: 909
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -798,24 +896,36 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 73
     width: 381
     height: 585
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     x: 1281
     y: 81
     width: 253
     height: 575
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 32e0ffff
+=======
+      m_SelectedIDs: 8cedffff
+      m_LastClickedID: -4724
+      m_ExpandedIDs: 8aedffff7af7fffff6f7ffff98f9ffffeef9ffff2efaffff4afbffff
+>>>>>>> parent of 5abd40d (Update)
 =======
       m_SelectedIDs: 8cedffff
       m_LastClickedID: -4724
@@ -866,15 +976,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 382
     y: 73
     width: 1120
     height: 585
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
     x: 1535
     y: 81
     width: 745
     height: 575
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -1038,9 +1154,15 @@ MonoBehaviour:
       y: 0
       width: 1494
 <<<<<<< HEAD
+<<<<<<< HEAD
       height: 559
     m_Scale: {x: 0.2587963, y: 0.2587963}
     m_Translation: {x: 747, y: 279.5}
+=======
+      height: 581
+    m_Scale: {x: 0.537963, y: 0.537963}
+    m_Translation: {x: 747, y: 290.5}
+>>>>>>> parent of 5abd40d (Update)
 =======
       height: 581
     m_Scale: {x: 0.537963, y: 0.537963}
@@ -1053,6 +1175,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -2886.44
       y: -1080
       width: 5772.88
@@ -1061,6 +1184,8 @@ MonoBehaviour:
   m_defaultScale: 0.2587963
   m_LastWindowPixelSize: {x: 1494, y: 580}
 =======
+=======
+>>>>>>> parent of 5abd40d (Update)
       x: -1388.5714
       y: -540
       width: 2777.1428
@@ -1068,6 +1193,9 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.537963
   m_LastWindowPixelSize: {x: 1494, y: 581}
+<<<<<<< HEAD
+>>>>>>> parent of 5abd40d (Update)
+=======
 >>>>>>> parent of 5abd40d (Update)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
