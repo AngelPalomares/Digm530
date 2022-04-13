@@ -12,14 +12,29 @@ public class AreaExit : MonoBehaviour {
 	[SerializeField]
 	private AreaEntrance theEntrance;
 
+	[SerializeField]
+	public float waitToLoad = 1f;
+
+	[SerializeField]
+	private bool shouldloadafterfade;
+
 	// Use this for initialization
 	void Start () {
 		theEntrance.transitionName = AreaTransitionName;
+
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
-		
+	void Update() {
+		if (shouldloadafterfade)
+        {
+			waitToLoad -= Time.deltaTime;
+			if(waitToLoad <= 0f)
+            {
+				shouldloadafterfade = false;
+				SceneManager.LoadScene(AreatoLoad);
+            }
+        }
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +42,9 @@ public class AreaExit : MonoBehaviour {
 		//this function is what loads the scene
 		if(collision.tag == "Player")
         {
-			SceneManager.LoadScene(AreatoLoad);
+			//SceneManager.LoadScene(AreatoLoad);
+			shouldloadafterfade = true;
+			UIFade.instance.FadeToBlack();
 			PlayerController.instance.AreaTransitionName = AreaTransitionName;
         }
 	}

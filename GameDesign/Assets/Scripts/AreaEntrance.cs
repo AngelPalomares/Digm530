@@ -13,7 +13,7 @@ public class AreaEntrance : MonoBehaviour {
 		//if statement is used to put the player in the area entrance
 		if(transitionName == PlayerController.instance.AreaTransitionName)
 			PlayerController.instance.transform.position = transform.position;
-        
+		UIFade.instance.FadeFromBlack();
     }
 	
 	// Update is called once per frame
