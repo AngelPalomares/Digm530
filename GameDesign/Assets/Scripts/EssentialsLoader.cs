@@ -5,7 +5,7 @@ using UnityEngine;
 public class EssentialsLoader : MonoBehaviour
 {
     [SerializeField]
-    private GameObject UIScreen, Player;
+    private GameObject UIScreen, Player, gamemanager;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,11 @@ public class EssentialsLoader : MonoBehaviour
             PlayerController clone = Instantiate(Player).GetComponent<PlayerController>();
 
             PlayerController.instance = clone;
+        }
+
+        if(GameManager.instance == null)
+        {
+            Instantiate(gamemanager);
         }
     }
 

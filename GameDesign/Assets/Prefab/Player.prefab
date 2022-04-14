@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1869584683
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 3f90499aeae096a418bf925f188577d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,6 +119,7 @@ MonoBehaviour:
   movespeed: 5
   Myanim: {fileID: 95004057696965290}
   AreaTransitionName: 
+  canMove: 1
 --- !u!50 &50601741168842214
 Rigidbody2D:
   serializedVersion: 4
@@ -147,12 +148,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222904923200328}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b05cf49e0b134a4aa0ace2ed86e9ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Lines: []
+  Human: 1
+  Item: {fileID: 0}
 --- !u!95 &95004057696965290
 Animator:
   serializedVersion: 3
