@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField]
 	public string AreaTransitionName;
 
+	[SerializeField]
+	public bool canMove = true;
+
 	//This limits the player where they are going
 	private Vector3 bottomLeftLimity, ToprightLimity;
 
@@ -42,8 +45,15 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		//function that makes the player move
-		TheRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * movespeed;
+		if(canMove)
+        {
+			//function that makes the player move
+			TheRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * movespeed;
+		}
+        else
+        {
+			//TheRB.velocity = Vector2.zero;
+        }
 
 		//Animator for the character
 		Myanim.SetFloat("moveX", TheRB.velocity.x);
@@ -52,8 +62,11 @@ public class PlayerController : MonoBehaviour {
 		if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 ||
 			Input.GetAxisRaw("Vertical") == -1)
         {
-			Myanim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
-			Myanim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+			if (canMove)
+			{
+				Myanim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
+				Myanim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+			}
 				
 		}
 
