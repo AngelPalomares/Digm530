@@ -6,8 +6,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    [SerializeField]
-    private CharStats[] playerstats;
+
+    public CharStats[] playerstats;
+
+    public bool GamemenuOpen, dialogueActive,FadigBetweenAreas;
 
     private void Awake()
     {
@@ -22,6 +24,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(GamemenuOpen || dialogueActive|| FadigBetweenAreas)
+        {
+            PlayerController.instance.canMove = false;
+        }
+        else
+        {
+            PlayerController.instance.canMove = true;
+        }
     }
 }

@@ -5,33 +5,35 @@ using UnityEngine;
 public class CharStats : MonoBehaviour
 {
     [SerializeField]
-    private string CharName;
+    public string CharName;
     //Current Level of the player
     [SerializeField]
-    private int playerleverl = 1;
+    public int playerleverl = 1;
     //curent Experience of the player
     [SerializeField]
-    private int CurrentExp, baseEXP = 1000;
+    public int CurrentExp, baseEXP = 1000;
 
     [SerializeField]
-    private int[] exptonextlevel, MPlvlBonus;
+    public int[] exptonextlevel, MPlvlBonus;
 
     [SerializeField]
     private int maxlevel = 100;
     //stats of the player
     [SerializeField]
-    private int currentHP, macHP = 100, currentMP, MaxMP = 30, Strength, Defence, WeaponPower;
+    public int currentHP, macHP = 100, currentMP, MaxMP = 30, Strength, Defence, WeaponPower;
 
     //name of the equipped items
     [SerializeField]
     private string equippedWeapon, EquippedArm;
 
     [SerializeField]
-    private Sprite CharacterImage;
+    public Sprite CharacterImage;
 
     // Start is called before the first frame update
     void Start()
     {
+        currentHP = macHP;
+        currentMP = MaxMP;
         exptonextlevel = new int[maxlevel];
 
         MPlvlBonus = new int[100];
