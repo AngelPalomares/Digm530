@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ActivateTheDialog : MonoBehaviour
 {
+    public static ActivateTheDialog instance;
     [SerializeField]
     private string[] Lines;
 
@@ -13,7 +14,12 @@ public class ActivateTheDialog : MonoBehaviour
     private bool Human = true;
 
     [SerializeField]
-    private GameObject Item;
+    public GameObject Item;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()

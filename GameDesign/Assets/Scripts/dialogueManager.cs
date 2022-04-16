@@ -30,6 +30,7 @@ public class dialogueManager : MonoBehaviour
     {
 
         //DialoText.text = Dialoglines[currentline];
+
     }
 
     // Update is called once per frame
@@ -38,9 +39,10 @@ public class dialogueManager : MonoBehaviour
         if(dialogbox.activeInHierarchy)
         {
             if(Input.GetButtonUp("Fire1"))
-            {
+            {       
                 if (!JustStarted)
                 {
+
                     currentline++;
 
                     //if currenline >= the length of the script set it false to hide it and sets the ability for the player to move again
