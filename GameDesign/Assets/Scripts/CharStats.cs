@@ -20,11 +20,11 @@ public class CharStats : MonoBehaviour
     private int maxlevel = 100;
     //stats of the player
     [SerializeField]
-    public int currentHP, macHP = 100, currentMP, MaxMP = 30, Strength, Defence, WeaponPower;
+    public int currentHP, macHP = 100, currentMP, MaxMP = 30, Strength, Defence, WeaponPower, armorpower;
 
     //name of the equipped items
     [SerializeField]
-    private string equippedWeapon, EquippedArm;
+    public string equippedWeapon, EquippedArm;
 
     [SerializeField]
     public Sprite CharacterImage;
