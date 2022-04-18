@@ -99,7 +99,7 @@ MonoBehaviour:
   IsanItem: 1
   isweapon: 0
   isArmour: 0
-  ItemName: Soda
+  ItemName: Mana Potion
   Description: Restores 100 MP
   Value: 5
   itemSprite: {fileID: 7094731132664807685, guid: 75ba77e926c77174895c2ab9688dfc93,

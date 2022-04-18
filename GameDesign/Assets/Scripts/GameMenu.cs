@@ -8,10 +8,13 @@ public class GameMenu : MonoBehaviour
     [SerializeField]
     private GameObject TheMenu;
 
+    //Different menus for the ui
     public GameObject[] windows;
 
+    //player stats;
     public CharStats[] playerstats;
 
+    //information about the player
     public Text[] NameText, HPText, MPText, LevelText, ExperienceText;
     public Slider[] expSlider;
     public Image[] CharacterImage;
@@ -21,6 +24,9 @@ public class GameMenu : MonoBehaviour
         StatusWeaponPower, StatusArmorEquipped, StatusArmorPower, StatusExp;
 
     public GameObject[] statusbuttons;
+
+    //the buttons that are used for items
+    public ItemButton[] ItemButton;
 
     // Start is called before the first frame update
     void Start()
@@ -134,5 +140,37 @@ public class GameMenu : MonoBehaviour
         StatusArmorPower.text = "Armor Power: " + playerstats[selected].WeaponPower.ToString();
         StatusExp.text = "Experience to next level " + (playerstats[selected].exptonextlevel[playerstats[selected].playerleverl] - playerstats[selected].CurrentExp).ToString();
 
+    }
+
+    public void QuitTheGame()
+    {
+        Application.Quit();
+    }
+
+    //function is used to show the items that are inside the inventory
+    public void ShowItems()
+    {
+        //for loop is used to go through the items that the character has
+        for(int i = 0; i < ItemButton.Length; i++)
+        {
+            ItemButton[i].ButtonValue = i;
+            //checks the gamemanager for the players inventory
+            //as long as it is not empty then it will show the item in the inventory
+            //else then it will show empty and the player will not be able to see it in their inventory
+            if(GameManager.instance.ItemsBeingHeld[i] != "")
+            {
+                ItemButton[i].buttonImage.gameObject.SetActive(true);
+
+                ItemButton[i].buttonImage.sprite = GameManager.instance.GetItemDetails(GameManager.instance.ItemsBeingHeld[i]).itemSprite;
+
+                ItemButton[i].AmountText.text = GameManager.instance.NumberofItems[i].ToString();
+            }
+            else
+            {
+                ItemButton[i].buttonImage.gameObject.SetActive(false);
+                ItemButton[i].AmountText.text = "";
+            }
+
+        }
     }
 }

@@ -99,7 +99,7 @@ MonoBehaviour:
   IsanItem: 1
   isweapon: 0
   isArmour: 0
-  ItemName: Potato Chips
+  ItemName: Health Potion
   Description: Restores 100 HP
   Value: 5
   itemSprite: {fileID: -9115021913368612337, guid: 75ba77e926c77174895c2ab9688dfc93,
