@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameMenu : MonoBehaviour
 {
+    #region Variables for the main menu;
+    public static GameMenu instance;
     [SerializeField]
     private GameObject TheMenu;
 
@@ -25,15 +27,24 @@ public class GameMenu : MonoBehaviour
 
     public GameObject[] statusbuttons;
 
+    public string selectedItemd;
+    public Item ActiveItem;
+    public Text ItemName, ItemDescription, usebuttontext;
+    #endregion;
     //the buttons that are used for items
     public ItemButton[] ItemButton;
 
+
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
 
     }
-
+    #region Update for the game;
     // Update is called once per frame
     void Update()
     {
@@ -54,7 +65,7 @@ public class GameMenu : MonoBehaviour
             }
         }
     }
-
+    #endregion;
     public void UpdateMainStats()
     {
         playerstats = GameManager.instance.playerstats;
@@ -150,14 +161,16 @@ public class GameMenu : MonoBehaviour
     //function is used to show the items that are inside the inventory
     public void ShowItems()
     {
+        GameManager.instance.SortItems();
         //for loop is used to go through the items that the character has
-        for(int i = 0; i < ItemButton.Length; i++)
+        for (int i = 0; i < ItemButton.Length; i++)
         {
+
             ItemButton[i].ButtonValue = i;
             //checks the gamemanager for the players inventory
             //as long as it is not empty then it will show the item in the inventory
             //else then it will show empty and the player will not be able to see it in their inventory
-            if(GameManager.instance.ItemsBeingHeld[i] != "")
+            if (GameManager.instance.ItemsBeingHeld[i] != "")
             {
                 ItemButton[i].buttonImage.gameObject.SetActive(true);
 
@@ -172,5 +185,23 @@ public class GameMenu : MonoBehaviour
             }
 
         }
+    }
+
+    public void SelectItem(Item NewItem)
+    {
+        ActiveItem = NewItem;
+
+        if (ActiveItem.IsanItem)
+        {
+            usebuttontext.text = "Use";
+        }
+
+        if (ActiveItem.isweapon || ActiveItem.isArmour)
+        {
+            usebuttontext.text = "Equip";
+        }
+
+        ItemName.text = ActiveItem.ItemName;
+        ItemDescription.text = ActiveItem.Description;
     }
 }

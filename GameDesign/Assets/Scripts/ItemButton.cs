@@ -21,4 +21,12 @@ public class ItemButton : MonoBehaviour
     {
         
     }
+
+    public void Press()
+    {
+        if(GameManager.instance.ItemsBeingHeld[ButtonValue]!= "")
+        {
+            GameMenu.instance.SelectItem(GameManager.instance.GetItemDetails(GameManager.instance.ItemsBeingHeld[ButtonValue]));
+        }
+    }
 }
