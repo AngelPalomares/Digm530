@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour {
 		}
         else
         {
-			//TheRB.velocity = Vector2.zero;
+			TheRB.velocity = Vector2.zero;
         }
 
 		//Animator for the character

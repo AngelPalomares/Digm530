@@ -8,7 +8,7 @@ public class GameMenu : MonoBehaviour
     #region Variables for the main menu;
     public static GameMenu instance;
     [SerializeField]
-    private GameObject TheMenu;
+    public GameObject TheMenu;
 
     //Different menus for the ui
     public GameObject[] windows;
@@ -34,6 +34,9 @@ public class GameMenu : MonoBehaviour
     //the buttons that are used for items
     public ItemButton[] ItemButton;
 
+    public GameObject itemCharChoiceMenu;
+    public Text[] itemcharchoicename;
+    public Text GoldText;
 
     private void Awake()
     {
@@ -48,20 +51,25 @@ public class GameMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (!Shop.Instance.ShopMenu.activeInHierarchy)
         {
-            if (TheMenu.activeInHierarchy)
+            if (Input.GetButtonDown("Fire2"))
             {
-                //TheMenu.SetActive(false);
-                //GameManager.instance.GamemenuOpen = false;
+                PlayerController.instance.canMove = false;
+                if (TheMenu.activeInHierarchy)
+                {
+                    //TheMenu.SetActive(false);
+                    //GameManager.instance.GamemenuOpen = false;
 
-                CloseMenu();
-            }
-            else
-            {
-                TheMenu.SetActive(true);
-                UpdateMainStats();
-                GameManager.instance.GamemenuOpen = true;
+                    CloseMenu();
+                }
+                else
+                {
+                    PlayerController.instance.canMove = true;
+                    TheMenu.SetActive(true);
+                    UpdateMainStats();
+                    GameManager.instance.GamemenuOpen = true;
+                }
             }
         }
     }
@@ -89,6 +97,8 @@ public class GameMenu : MonoBehaviour
                 CharStatHolder[i].SetActive(false);
             }
         }
+
+        GoldText.text = GameManager.instance.CurrentGold.ToString() + "g";
     }
 
     public void ToggleWIndwo(int windowNumber)
@@ -105,6 +115,8 @@ public class GameMenu : MonoBehaviour
                 windows[i].SetActive(false);
             }
         }
+
+        itemCharChoiceMenu.SetActive(false);
     }
 
     public void CloseMenu()
@@ -117,7 +129,7 @@ public class GameMenu : MonoBehaviour
         TheMenu.SetActive(false);
 
         GameManager.instance.GamemenuOpen = false;
-
+        itemCharChoiceMenu.SetActive(false);
     }
 
     public void Openstatus()
@@ -148,7 +160,7 @@ public class GameMenu : MonoBehaviour
             StatusArmorEquipped.text = "Equpped Armor: " + playerstats[selected].EquippedArm;
         }
 
-        StatusArmorPower.text = "Armor Power: " + playerstats[selected].WeaponPower.ToString();
+        StatusArmorPower.text = "Armor Power: " + playerstats[selected].armorpower.ToString();
         StatusExp.text = "Experience to next level " + (playerstats[selected].exptonextlevel[playerstats[selected].playerleverl] - playerstats[selected].CurrentExp).ToString();
 
     }
@@ -203,5 +215,36 @@ public class GameMenu : MonoBehaviour
 
         ItemName.text = ActiveItem.ItemName;
         ItemDescription.text = ActiveItem.Description;
+    }
+
+    public void DiscardItem()
+    {
+        if(ActiveItem != null)
+        {
+            GameManager.instance.RemoveItem(ActiveItem.ItemName);
+        }
+    }
+
+    public void OpenItemCharChoice()
+    {
+        itemCharChoiceMenu.SetActive(true);
+
+        for(int i = 0; i < itemcharchoicename.Length; i++)
+        {
+            itemcharchoicename[i].text = GameManager.instance.playerstats[i].CharName;
+            itemcharchoicename[i].transform.parent.gameObject.SetActive(GameManager.instance.playerstats[i].gameObject.activeInHierarchy);
+        }
+
+    }
+
+    public void CloseItemCharChoice()
+    {
+        itemCharChoiceMenu.SetActive(false);
+    }
+
+    public void useItem(int selectChar)
+    {
+        ActiveItem.Use(selectChar);
+        CloseItemCharChoice();
     }
 }

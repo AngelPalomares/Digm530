@@ -7,11 +7,13 @@ public class GameManager : MonoBehaviour
     #region GameStats;
     public static GameManager instance;
     public CharStats[] playerstats;
-    public bool GamemenuOpen, dialogueActive,FadigBetweenAreas;
+    public bool GamemenuOpen, dialogueActive,FadigBetweenAreas,shopactive;
     [Header("Item Information")]
     public string[] ItemsBeingHeld;
     public int[] NumberofItems;
     public Item[] referenceItems;
+
+    public int CurrentGold;
     #endregion;
 
     private void Awake()
@@ -22,12 +24,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+
+        SortItems();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(GamemenuOpen || dialogueActive|| FadigBetweenAreas)
+        if(GamemenuOpen || dialogueActive|| FadigBetweenAreas || shopactive)
         {
             PlayerController.instance.canMove = false;
         }
