@@ -16,6 +16,11 @@ public class ActivateTheDialog : MonoBehaviour
     [SerializeField]
     public GameObject Item;
 
+    public int count = 0;
+
+
+    public bool shouldActivateQUest, markcomplete;
+    public string QuestToMark;
     private void Awake()
     {
         instance = this;
@@ -34,7 +39,10 @@ public class ActivateTheDialog : MonoBehaviour
         {
             //passes the lines to the dialog manager
             dialogueManager.instance.ShowDialog(Lines, Human);
+            dialogueManager.instance.ShoulACtivateQuestAtEnd(QuestToMark, markcomplete);
         }
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

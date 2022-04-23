@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ac1580b430680641bfe292e9193981c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharName: Miguel
+  CharName: Daniel
   playerleverl: 1
   CurrentExp: 0
   baseEXP: 1000
@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7853331333439395253}
   - component: {fileID: 2003485064447604921}
+  - component: {fileID: 116213032}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -110,3 +111,72 @@ MonoBehaviour:
   GamemenuOpen: 0
   dialogueActive: 0
   FadigBetweenAreas: 0
+  shopactive: 0
+  ItemsBeingHeld:
+  - 
+  - Iron Sword
+  - 
+  - 
+  - Health Potion
+  - 
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Iron Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  NumberofItems: 00000000010000000000000000000000140000000000000000000000000000002800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 1662490960658872674, guid: 37714588dbb378845ba82b21dcaa1584, type: 3}
+  - {fileID: 5051772570991341959, guid: ce514f49e5bfb6e46896327d359bacdd, type: 3}
+  - {fileID: 8452004789159686716, guid: 6260684b3d18477468e2ca362a791f79, type: 3}
+  - {fileID: 3116050977877323379, guid: 4e6650408a75e3f478618dfbd66cd953, type: 3}
+  - {fileID: 5118998014529468970, guid: 9f3164ecc7b8f0d4596c9f2fc1c9382e, type: 3}
+  - {fileID: 2240641638032905770, guid: eb4075eee5a880740a5156ae2c30245c, type: 3}
+  CurrentGold: 200
+--- !u!114 &116213032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8443100010507936343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61527f2e7579ae241bbe54c172a79485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questmarkernames:
+  - 
+  - EnterTheBuilding
+  - FindTheKeycard
+  - GotTheKeyCard
+  QuestMarkersComplete: 

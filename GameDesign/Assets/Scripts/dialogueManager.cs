@@ -21,6 +21,12 @@ public class dialogueManager : MonoBehaviour
     private int currentline;
 
     private bool JustStarted;
+
+    private string QuestToMark;
+
+    private bool MarkQuestComplete, ShouldMarkQuest;
+
+
     private void Awake()
     {
         instance = this;
@@ -51,6 +57,19 @@ public class dialogueManager : MonoBehaviour
                     {
                         dialogbox.SetActive(false);
                         GameManager.instance.dialogueActive = false;
+
+                        if(ShouldMarkQuest)
+                        {
+                            ShouldMarkQuest = false;
+                            if (MarkQuestComplete)
+                            {
+                                QuestManager.instance.MarkQuestComplete(QuestToMark);
+                            }
+                            else
+                            {
+                                QuestManager.instance.MarkQuestIncomplete(QuestToMark);
+                            }
+                        }
                     }
                     else
                     {
@@ -91,5 +110,13 @@ public class dialogueManager : MonoBehaviour
             NameText.text = Dialoglines[currentline].Replace("n-","");
             currentline++;
         }
+    }
+
+    public void ShoulACtivateQuestAtEnd(string QuestName,bool MarkComplete)
+    {
+        QuestToMark = QuestName;
+        MarkQuestComplete = MarkComplete;
+
+        ShouldMarkQuest = true;
     }
 }
