@@ -23,9 +23,12 @@ public class QuestManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Debug.Log (CheckIfCompletest("Find the keycard"));
-            MarkQuestComplete("Find the keycard");
-            MarkQuestIncomplete("Find the me");
+            SaveQuestData();
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            LoadQuestData();
         }
     }
 
@@ -77,5 +80,41 @@ public class QuestManager : MonoBehaviour
             }
         }
 
+    }
+
+    public void SaveQuestData()
+    {
+        for(int i = 0; i < questmarkernames.Length; i++)
+        {
+            if (QuestMarkersComplete[i])
+            {
+                PlayerPrefs.SetInt("QuestMarker_" + questmarkernames[i], 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("QuestMarker_" + questmarkernames[i], 0);
+            }
+        }
+    }
+    public void LoadQuestData()
+    {
+        for(int i = 0; i < questmarkernames.Length; i++)
+        {
+            int valuetoset = 0;
+
+            if(PlayerPrefs.HasKey("QuestMarker_" + questmarkernames[i]))
+            {
+                valuetoset = PlayerPrefs.GetInt("QuestMarker_" + questmarkernames[i]);
+            }
+
+            if (valuetoset == 0)
+            {
+                QuestMarkersComplete[1] = false;
+            }
+            else
+            {
+                QuestMarkersComplete[i] = true;
+            }
+        }
     }
 }

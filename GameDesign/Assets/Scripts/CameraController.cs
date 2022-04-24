@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour {
 
@@ -14,6 +15,9 @@ public class CameraController : MonoBehaviour {
 	private Vector3 BottomLeftLimit, TopRightLimit;
 
 	private float Halfheight, HalfWidth;
+
+	public int MusicToPlay;
+	private bool MusicStarted;
 
 	// Use this for initialization
 	void Start () {
@@ -41,5 +45,10 @@ public class CameraController : MonoBehaviour {
 		//keep the camera inside the bounds
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, BottomLeftLimit.x, TopRightLimit.x), Mathf.Clamp(transform.position.y,BottomLeftLimit.y,TopRightLimit.y), transform.position.z);
 
+        if (!MusicStarted)
+        {
+			MusicStarted = true;
+			AudioManager.instance.PlayVGM(MusicToPlay);
+        }
 	}
 }

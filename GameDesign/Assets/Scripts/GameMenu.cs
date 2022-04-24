@@ -70,6 +70,7 @@ public class GameMenu : MonoBehaviour
                     UpdateMainStats();
                     GameManager.instance.GamemenuOpen = true;
                 }
+                AudioManager.instance.PlaySXF(0);
             }
         }
     }
@@ -246,5 +247,21 @@ public class GameMenu : MonoBehaviour
     {
         ActiveItem.Use(selectChar);
         CloseItemCharChoice();
+    }
+
+    public void SaveTheGame()
+    {
+        GameManager.instance.savedata();
+        QuestManager.instance.SaveQuestData();
+    }
+
+    public void PlayButtonSound()
+    {
+        AudioManager.instance.PlaySXF(2);
+    }
+
+    public void PlayItemButtonSound()
+    {
+        AudioManager.instance.PlaySXF(2);
     }
 }
