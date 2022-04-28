@@ -50,3 +50,9 @@ TagManager:
   - name: Top
     uniqueID: 1387631381
     locked: 0
+  - name: BattleBG
+    uniqueID: 3567083229
+    locked: 0
+  - name: BattleChars
+    uniqueID: 763172749
+    locked: 0
