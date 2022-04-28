@@ -249,18 +249,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1603099837513303114, guid: 624606ba60438c54bbb90d6a09505815,
-        type: 3}
-      propertyPath: gamemanager
-      value: 
-      objectReference: {fileID: 8443100010507936343, guid: b968a90330cb93944827e37dcbfad047,
-        type: 3}
-    - target: {fileID: 1603099837513303114, guid: 624606ba60438c54bbb90d6a09505815,
-        type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 5097015763039876467, guid: 8c3647ddfbc92b54c9c906a6363b9d94,
-        type: 3}
     - target: {fileID: 4112714493788328130, guid: 624606ba60438c54bbb90d6a09505815,
         type: 3}
       propertyPath: m_Name

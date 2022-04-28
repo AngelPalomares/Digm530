@@ -32,12 +32,6 @@ public class dialogueManager : MonoBehaviour
         instance = this;
     }
     // Start is called before the first frame update
-    void Start()
-    {
-
-        //DialoText.text = Dialoglines[currentline];
-
-    }
 
     // Update is called once per frame
     void Update()
