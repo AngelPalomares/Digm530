@@ -855,7 +855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &419574579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,6 +1026,10 @@ MonoBehaviour:
   - {fileID: 2408299541306931626, guid: e2595845209881449a705cc44a7f0bd7, type: 3}
   EnemyPrefab:
   - {fileID: 9191364090073194600, guid: d797961b17fa0b041979c752e220af58, type: 3}
+  activateBattlers: []
+  currentTurn: 0
+  turnWaiting: 0
+  UIButtonHolder: {fileID: 1314693076}
 --- !u!4 &451036563
 Transform:
   m_ObjectHideFlags: 0
@@ -3621,7 +3625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1894779952
 Transform:
   m_ObjectHideFlags: 0

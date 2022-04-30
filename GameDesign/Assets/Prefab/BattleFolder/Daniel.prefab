@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c963a9e144972a49be66f80fedbb43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsPlayer: 0
+  IsPlayer: 1
   MovesAvailable: []
   CharName: Daniel
   CurrentHP: 0
