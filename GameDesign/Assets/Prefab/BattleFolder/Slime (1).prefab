@@ -96,7 +96,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsPlayer: 0
-  MovesAvailable: []
+  MovesAvailable:
+  - Flame
+  - Ice
+  - Slash_0
   CharName: Rimuru
   CurrentHP: 30
   MaxHP: 30

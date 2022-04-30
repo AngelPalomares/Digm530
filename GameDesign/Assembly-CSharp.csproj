@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Shop.cs" />
     <Compile Include="Assets\Scripts\AreaExit.cs" />
     <Compile Include="Assets\Scripts\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\PlayerLoader.cs" />
@@ -67,13 +68,16 @@
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\AreaEntrance.cs" />
     <Compile Include="Assets\Scripts\QuestMarker.cs" />
+    <Compile Include="Assets\Scripts\AttackEffect.cs" />
     <Compile Include="Assets\Scripts\ItemButton.cs" />
     <Compile Include="Assets\Scripts\PickUpItem.cs" />
     <Compile Include="Assets\Scripts\QuestManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ActivateTheDialpgue2.cs" />
     <Compile Include="Assets\Scripts\CharStats.cs" />
+    <Compile Include="Assets\Scripts\BattleMove.cs" />
     <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
+    <Compile Include="Assets\Scripts\BattleChar.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\GameMenu.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -81,8 +85,8 @@
     <Compile Include="Assets\Scripts\UIFade.cs" />
     <Compile Include="Assets\Scripts\QuestObjectActivator.cs" />
     <Compile Include="Assets\Scripts\PickupKeyCard.cs" />
-    <Compile Include="Assets\Scripts\BattleChar.cs" />
-    <Compile Include="Assets\Scripts\BattleManager.cs" />
+    <Compile Include="Assets\Scripts\DestroyOverLifetime.cs" />
+    <Compile Include="Assets\Scripts\DamageNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

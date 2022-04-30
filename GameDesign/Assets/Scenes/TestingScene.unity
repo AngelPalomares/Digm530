@@ -1030,6 +1030,37 @@ MonoBehaviour:
   currentTurn: 0
   turnWaiting: 0
   UIButtonHolder: {fileID: 1314693076}
+  MovesList:
+  - MoveName: Slash_0
+    MovePower: 5
+    MoveCost: 0
+    theeffect: {fileID: 1006671747357007298, guid: 73b513f38a865104cbaa3d5e446990f7,
+      type: 3}
+  - MoveName: Flame
+    MovePower: 50
+    MoveCost: 5
+    theeffect: {fileID: 5161613048066031854, guid: 28e23ca79fdde804eb0a762389005458,
+      type: 3}
+  - MoveName: Ice
+    MovePower: 60
+    MoveCost: 10
+    theeffect: {fileID: 7478663278352333984, guid: 6dc5868c8017235469bb24309b0e6368,
+      type: 3}
+  - MoveName: Electric
+    MovePower: 100
+    MoveCost: 30
+    theeffect: {fileID: 2404103440463534424, guid: ffa67ff265d172c4eb459d77543648f5,
+      type: 3}
+  EnemyAttactEffect: {fileID: 8914937089320844185, guid: 9e79b543b7790104db79c013c09b29e2,
+    type: 3}
+  TheDamgeNumber: {fileID: 267332132594636049, guid: e5f134083736a834a9c9079b78998cb5,
+    type: 3}
+  PlayerNames:
+  - {fileID: 1944405594}
+  PlayerHP:
+  - {fileID: 1764682791}
+  PlayerMP:
+  - {fileID: 1972677087}
 --- !u!4 &451036563
 Transform:
   m_ObjectHideFlags: 0
@@ -3625,7 +3656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1894779952
 Transform:
   m_ObjectHideFlags: 0

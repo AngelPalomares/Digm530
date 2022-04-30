@@ -13,6 +13,8 @@ public class BattleChar : MonoBehaviour
 
     public bool HasDied;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
