@@ -13,6 +13,11 @@ public class BattleChar : MonoBehaviour
 
     public bool HasDied;
 
+    public SpriteRenderer TheSprite;
+
+    private bool SHouldFade;
+    public float FadeSpeed = 1f;
+
 
 
     // Start is called before the first frame update
@@ -24,6 +29,18 @@ public class BattleChar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(SHouldFade)
+        {
+            TheSprite.color = new Color(Mathf.MoveTowards(TheSprite.color.r,1f, FadeSpeed *Time.deltaTime), Mathf.MoveTowards(TheSprite.color.g, 0f, FadeSpeed * Time.deltaTime), Mathf.MoveTowards(TheSprite.color.b, 0f, FadeSpeed * Time.deltaTime), Mathf.MoveTowards(TheSprite.color.a, 0f, FadeSpeed * Time.deltaTime));
+            if(TheSprite.color.a == 0)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void EnemyFade()
+    {
+        SHouldFade = true;
     }
 }

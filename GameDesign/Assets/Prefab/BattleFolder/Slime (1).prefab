@@ -110,3 +110,5 @@ MonoBehaviour:
   WeaponPower: 5
   ArmorPower: 1
   HasDied: 0
+  TheSprite: {fileID: 5781380980003700278}
+  FadeSpeed: 1

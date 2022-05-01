@@ -5,7 +5,7 @@ using UnityEngine;
 public class EssentialsLoader : MonoBehaviour
 {
     [SerializeField]
-    private GameObject UIScreen, Player, gamemanager,audioManager;
+    private GameObject UIScreen, Player, gamemanager,audioManager, battlemanager;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +30,11 @@ public class EssentialsLoader : MonoBehaviour
         if(AudioManager.instance == null)
         {
             Instantiate(audioManager);
+        }
+
+        if(BattleManager.instance == null)
+        {
+            Instantiate(battlemanager);
         }
     }
 

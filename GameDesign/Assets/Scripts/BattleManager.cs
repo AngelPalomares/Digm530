@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BattleManager : MonoBehaviour
 {
@@ -41,6 +42,8 @@ public class BattleManager : MonoBehaviour
 
     public BattleNotification BattleNotice;
     public int ChanceToFlee = 35;
+
+    public string GameOverScene;
     #endregion
     private void Awake()
     {
@@ -90,6 +93,7 @@ public class BattleManager : MonoBehaviour
     {
         if(!BattleActive)
         {
+            AudioManager.instance.PlayVGM(2);
             BattleActive = true;
 
 
@@ -182,6 +186,14 @@ public class BattleManager : MonoBehaviour
             if(activateBattlers[i].CurrentHP ==0)
             {
                 //handle dead people
+                if(activateBattlers[i].IsPlayer)
+                {
+
+                }
+                else
+                {
+                    activateBattlers[i].EnemyFade();
+                }
 
             }
             else
@@ -202,15 +214,29 @@ public class BattleManager : MonoBehaviour
             if (AllEnemiesDead)
             {
                 //end Battle
+                StartCoroutine(EndBattleCo());
             }
             else
             {
                 //end battle in failute
+                StartCoroutine(GameOverCo());
             }
-
+            /*
             BattleScene.SetActive(false);
             GameManager.instance.battleActive = false;
             BattleActive = false;
+            */
+        }
+        else
+        {
+            while(activateBattlers[currentTurn].CurrentHP == 0)
+            {
+                currentTurn++;
+                if(currentTurn >= activateBattlers.Count)
+                {
+                    currentTurn = 0;
+                }
+            }
         }
 
     }
@@ -340,7 +366,7 @@ public class BattleManager : MonoBehaviour
 
         for(int i = 0; i < TargetButtons.Length; i++)
         {
-            if(Enemies.Count > i)
+            if(Enemies.Count > i && activateBattlers[Enemies[i]].CurrentHP > 0)
             {
                 TargetButtons[i].gameObject.SetActive(true);
 
@@ -392,8 +418,9 @@ public class BattleManager : MonoBehaviour
 
         if(fleeSuccess < ChanceToFlee)
         {
-            BattleActive = false;
-            BattleScene.SetActive(false);
+            //BattleActive = false;
+            //BattleScene.SetActive(false);
+            StartCoroutine(EndBattleCo());
         }
         else
         {
@@ -401,5 +428,56 @@ public class BattleManager : MonoBehaviour
             BattleNotice.theTest.text = "Couldnt Escape!";
             BattleNotice.Active();
         }
+
+
+    }
+
+    public IEnumerator EndBattleCo()
+    {
+        BattleActive = false;
+        UIButtonHolder.SetActive(false);
+        TargetMenu.SetActive(false);
+        MagicMenu.SetActive(false);
+
+        yield return new WaitForSeconds(.5f);
+        UIFade.instance.FadeToBlack();
+        yield return new WaitForSeconds(1.5f);
+
+        for(int i = 0; i <activateBattlers.Count; i++)
+        {
+            if(activateBattlers[i].IsPlayer)
+            {
+                for(int j = 0; j < GameManager.instance.playerstats.Length; j++)
+                {
+                    if(activateBattlers[i].CharName == GameManager.instance.playerstats[j].CharName)
+                    {
+                        GameManager.instance.playerstats[j].currentHP = activateBattlers[i].CurrentHP;
+                        GameManager.instance.playerstats[j].currentMP = activateBattlers[i].CurrentMP;
+                    }
+                }
+            }
+
+            Destroy(activateBattlers[i].gameObject);
+        }
+
+
+        UIFade.instance.FadeFromBlack();
+        BattleScene.SetActive(false);
+        activateBattlers.Clear();
+        currentTurn = 0;
+        GameManager.instance.battleActive = false;
+
+        AudioManager.instance.PlayVGM(FindObjectOfType<CameraController>().MusicToPlay);
+
+    }
+
+
+    public IEnumerator GameOverCo()
+    {
+        BattleActive = false;
+        UIFade.instance.FadeToBlack();
+        yield return new WaitForSeconds(1.5f);
+        BattleScene.SetActive(false);
+        SceneManager.LoadScene(GameOverScene);
     }
 }
