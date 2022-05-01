@@ -96,7 +96,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsPlayer: 1
-  MovesAvailable: []
+  MovesAvailable:
+  - Flame
+  - Ice
+  - Electric
   CharName: Daniel
   CurrentHP: 0
   MaxHP: 0

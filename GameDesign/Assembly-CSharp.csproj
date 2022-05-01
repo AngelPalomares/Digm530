@@ -76,17 +76,20 @@
     <Compile Include="Assets\Scripts\ActivateTheDialpgue2.cs" />
     <Compile Include="Assets\Scripts\CharStats.cs" />
     <Compile Include="Assets\Scripts\BattleMove.cs" />
+    <Compile Include="Assets\Scripts\DestroyOverLifetime.cs" />
     <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
     <Compile Include="Assets\Scripts\BattleChar.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\DamageNumber.cs" />
     <Compile Include="Assets\Scripts\GameMenu.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\dialogueManager.cs" />
     <Compile Include="Assets\Scripts\UIFade.cs" />
     <Compile Include="Assets\Scripts\QuestObjectActivator.cs" />
     <Compile Include="Assets\Scripts\PickupKeyCard.cs" />
-    <Compile Include="Assets\Scripts\DestroyOverLifetime.cs" />
-    <Compile Include="Assets\Scripts\DamageNumber.cs" />
+    <Compile Include="Assets\Scripts\BattleTargetButton.cs" />
+    <Compile Include="Assets\Scripts\BattleMagicSelect.cs" />
+    <Compile Include="Assets\Scripts\BattleNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

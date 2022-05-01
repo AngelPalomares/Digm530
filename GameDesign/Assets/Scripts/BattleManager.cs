@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour
 {
+    #region Variables used for game
     public static BattleManager instance;
 
-    private bool BattleActive;
+    public bool BattleActive;
 
     public GameObject BattleScene;
 
@@ -29,7 +30,18 @@ public class BattleManager : MonoBehaviour
     public DamageNumber TheDamgeNumber;
 
     public Text[] PlayerNames, PlayerHP, PlayerMP;
-    
+
+    public GameObject TargetMenu;
+
+    public BattleTargetButton[] TargetButtons;
+
+    public GameObject MagicMenu;
+
+    public BattleMagicSelect[] MagicSelects;
+
+    public BattleNotification BattleNotice;
+    public int ChanceToFlee = 35;
+    #endregion
     private void Awake()
     {
         instance = this;
@@ -45,7 +57,7 @@ public class BattleManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.V))
         {
-            BattleStart(new string[] { "Rimuru", "Rimuru", "Rimuru", "Rimuru" });
+            BattleStart(new string[] { "Rimuru", "Rimuru" });
         }
 
         if(BattleActive)
@@ -79,6 +91,8 @@ public class BattleManager : MonoBehaviour
         if(!BattleActive)
         {
             BattleActive = true;
+
+
 
             transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
             GameManager.instance.battleActive = true;
@@ -282,6 +296,110 @@ public class BattleManager : MonoBehaviour
             {
                 PlayerNames[i].gameObject.SetActive(true);
             }
+        }
+    }
+
+    public void PlayerAttack(string MoveName, int SelectedTarget)
+    {
+
+        int movePower = 0;
+
+        for (int i = 0; i < MovesList.Length; i++)
+        {
+            if (MovesList[i].MoveName == MoveName)
+            {
+                Instantiate(MovesList[i].theeffect, activateBattlers[SelectedTarget].transform.position, activateBattlers[SelectedTarget].transform.rotation);
+                movePower = MovesList[i].MovePower;
+
+            }
+        }
+
+
+        DealDamage(SelectedTarget, movePower);
+        UIButtonHolder.SetActive(false);
+        TargetMenu.SetActive(false);
+        NextTurn();
+
+
+    }
+
+    public void OpenTargetMenu(string MoveName)
+    {
+        TargetMenu.SetActive(true);
+
+
+        List<int> Enemies = new List<int>();
+        for(int i = 0; i < activateBattlers.Count; i++)
+        {
+            if(!activateBattlers[i].IsPlayer)
+            {
+                Enemies.Add(i);
+
+            }
+        }
+
+        for(int i = 0; i < TargetButtons.Length; i++)
+        {
+            if(Enemies.Count > i)
+            {
+                TargetButtons[i].gameObject.SetActive(true);
+
+                TargetButtons[i].MoveName = MoveName;
+                TargetButtons[i].activeBattleTarget = Enemies[i];
+                TargetButtons[i].TargetName.text = activateBattlers[Enemies[i]].CharName;
+            }
+            else
+            {
+                TargetButtons[i].gameObject.SetActive(false);
+            }
+        }
+
+    }
+
+    public void OpenMagicMenu()
+    {
+        MagicMenu.SetActive(true);
+
+        for(int i = 0; i < MagicSelects.Length; i++)
+        {
+            if(activateBattlers[currentTurn].MovesAvailable.Length > i)
+            {
+                MagicSelects[i].gameObject.SetActive(true);
+
+                MagicSelects[i].SpellName = activateBattlers[currentTurn].MovesAvailable[i];
+                MagicSelects[i].NameText.text = MagicSelects[i].SpellName;
+
+                for(int j = 0; j < MovesList.Length; j++)
+                {
+                    if(MovesList[j].MoveName == MagicSelects[i].SpellName)
+                    {
+                        MagicSelects[i].SpellCost = MovesList[j].MoveCost;
+                        MagicSelects[i].CostText.text = MagicSelects[i].SpellCost.ToString(); 
+                    }
+                }
+            }
+            else
+            {
+                MagicSelects[i].gameObject.SetActive(false);
+            }
+        }
+
+    }
+
+    public void Flee()
+    {
+        int fleeSuccess = Random.Range(0, 100);
+
+        if(fleeSuccess < ChanceToFlee)
+        {
+            BattleActive = false;
+            BattleScene.SetActive(false);
+        }
+        else
+        {
+            NextTurn();
+            BattleNotice.theTest.text = "Couldnt Escape!";
+            BattleNotice.Active();
         }
     }
 }
