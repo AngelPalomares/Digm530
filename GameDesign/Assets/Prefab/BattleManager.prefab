@@ -3475,7 +3475,11 @@ MonoBehaviour:
   - {fileID: 4720584279372868354}
   BattleNotice: {fileID: 4720584280518014990}
   ChanceToFlee: 35
-  GameOverScene: 
+  GameOverScene: GameOver
+  RewardXP: 2000
+  rewardItems:
+  - Health Potion
+  - Mana Potion
 --- !u!1 &4720584279481748430
 GameObject:
   m_ObjectHideFlags: 0

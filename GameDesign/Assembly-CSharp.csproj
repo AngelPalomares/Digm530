@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\ActivateTheDialpgue2.cs" />
     <Compile Include="Assets\Scripts\BattleNotification.cs" />
     <Compile Include="Assets\Scripts\CharStats.cs" />
+    <Compile Include="Assets\Scripts\GameOverScript.cs" />
     <Compile Include="Assets\Scripts\BattleMove.cs" />
     <Compile Include="Assets\Scripts\DestroyOverLifetime.cs" />
     <Compile Include="Assets\Scripts\EssentialsLoader.cs" />
@@ -90,7 +91,9 @@
     <Compile Include="Assets\Scripts\QuestObjectActivator.cs" />
     <Compile Include="Assets\Scripts\PickupKeyCard.cs" />
     <Compile Include="Assets\Scripts\BattleMagicSelect.cs" />
-    <Compile Include="Assets\Scripts\GameOverScript.cs" />
+    <Compile Include="Assets\Scripts\BattleReward.cs" />
+    <Compile Include="Assets\Scripts\BattleType.cs" />
+    <Compile Include="Assets\Scripts\BattleStarter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -43,7 +43,13 @@ public class BattleManager : MonoBehaviour
     public BattleNotification BattleNotice;
     public int ChanceToFlee = 35;
 
+    private bool Fleeing;
+
     public string GameOverScene;
+
+    public int RewardXP;
+    public string[] rewardItems;
+
     #endregion
     private void Awake()
     {
@@ -420,6 +426,7 @@ public class BattleManager : MonoBehaviour
         {
             //BattleActive = false;
             //BattleScene.SetActive(false);
+            Fleeing = true;
             StartCoroutine(EndBattleCo());
         }
         else
@@ -465,7 +472,17 @@ public class BattleManager : MonoBehaviour
         BattleScene.SetActive(false);
         activateBattlers.Clear();
         currentTurn = 0;
-        GameManager.instance.battleActive = false;
+        //GameManager.instance.battleActive = false;
+
+        if(Fleeing)
+        {
+            GameManager.instance.battleActive = false;
+            Fleeing = false;
+        }
+        else
+        {
+            BattleReward.instance.OpenRewardScreen(RewardXP, rewardItems);
+        }
 
         AudioManager.instance.PlayVGM(FindObjectOfType<CameraController>().MusicToPlay);
 

@@ -112,6 +112,7 @@ MonoBehaviour:
   dialogueActive: 0
   FadigBetweenAreas: 0
   shopactive: 0
+  battleActive: 0
   ItemsBeingHeld:
   - 
   - Iron Sword
