@@ -180,4 +180,5 @@ MonoBehaviour:
   - EnterTheBuilding
   - FindTheKeycard
   - GotTheKeyCard
+  - TalkToDad
   QuestMarkersComplete: 

@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour {
 		if(canMove)
         {
 			//function that makes the player move
-			TheRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * movespeed;
+			TheRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * movespeed;
 		}
         else
         {

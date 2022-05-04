@@ -19,7 +19,7 @@ public class ActivateTheDialog : MonoBehaviour
     public int count = 0;
 
 
-    public bool shouldActivateQUest, markcomplete;
+    public bool shouldActivateQuest, markcomplete;
     public string QuestToMark;
     private void Awake()
     {
