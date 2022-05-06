@@ -2426,7 +2426,7 @@ PrefabInstance:
     - target: {fileID: 4145737398205979969, guid: e2595845209881449a705cc44a7f0bd7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2595845209881449a705cc44a7f0bd7, type: 3}
@@ -2580,6 +2580,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4720584279095686384, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720584279095686391, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a579e218b04ff6d4485b622e35a239f1,
+        type: 3}
     - target: {fileID: 4720584279460129184, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
         type: 3}
       propertyPath: m_RootOrder
@@ -2644,6 +2655,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BattleManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720584280165703708, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720584280193725415, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5298cf587c7de5b45a4dbfd0ef812f27, type: 3}
