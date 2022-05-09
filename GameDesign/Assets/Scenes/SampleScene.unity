@@ -557,7 +557,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -567,23 +567,28 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: I sure do love this company. I have heard nothing but good things from
-        the media
+      value: Hi Daniel!
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: 
+      value: n-Daniel
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: 
+      value: Hey Karen! Working on anything currently?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: I believe so
+      value: n-Karen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: I wish I could tell you but we are coming out with something that will
+        change everyones lives. All thanks to your dad and Xenon Corps.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1127,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1137,22 +1142,28 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: This company just appeared out of nowhere
+      value: Hi Daniel, visiting with your dad today?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: 
+      value: n-Daniel
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: 
+      value: Yup, working on anything new?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: I believe so
+      value: n-Sarah
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: Yes actually, our team is hard at work for a product that will change
+        so many lives.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
