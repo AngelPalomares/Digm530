@@ -557,7 +557,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -567,23 +567,48 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: I sure do love this company. I have heard nothing but good things from
-        the media
+      value: Hi Daniel, visiting with your dad today?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: 
+      value: n-Daniel
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: 
+      value: Yup.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: I believe so
+      value: n-Karen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: Cool! We got a big project everyone is working on right now.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[6]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[7]
+      value: Oh? Is there anything you can share?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[8]
+      value: n-Karen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[9]
+      value: Not just yet but lets just say Xenon will be having a big impact in
+        everyones life.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1127,7 +1152,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1137,22 +1162,28 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: This company just appeared out of nowhere
+      value: Hi Daniel, how are you doing?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: 
+      value: n-Daniel
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: 
+      value: Not bad just looking forward to spending the day here at the office.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: I believe so
+      value: 'n-Sarah '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: Ahh thats cool, everyone is super busy right now with this new project.
+        I am telling you its going to change the world!
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}

@@ -1859,6 +1859,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Joseph to Sarah
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: The article is going to stick I'm telling you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: n-Sarah to Joseph
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: It won't. People won't care after our product reveal and who cares about
+        what happens in some random village in another continent.
+      objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: m_Name
@@ -1947,6 +1968,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: 'n-Daily Globe '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Chemicals found near Xenon Corps factory.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: What? How can we be so careless?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[4]
+      value: n-Daily Globe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: The chemicals were found near the disposal area of the factory where
+        the employees reportedly were told "Don't worry about it"
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -2571,6 +2623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BattleZone
       objectReference: {fileID: 0}
+    - target: {fileID: 2735825743976740970, guid: b7845194618c1af41b6300465100628f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7845194618c1af41b6300465100628f, type: 3}
 --- !u!1001 &4720584279357254707
@@ -2584,6 +2641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720584279095686385, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4720584279095686391, guid: 5298cf587c7de5b45a4dbfd0ef812f27,
         type: 3}

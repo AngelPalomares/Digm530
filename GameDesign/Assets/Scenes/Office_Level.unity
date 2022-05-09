@@ -1270,10 +1270,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Lines:
   - n-Dad
-  - Hey so like... I had to run up ahead without you. The security guards had left
-    you a keycard to use. Please grab it and come to me as soon as possible
+  - Daniel can you get me the key to my office? I'll be on the second floor
   - n-Angel
-  - I guess
+  - Alright
   Human: 1
   Item: {fileID: 1231433609}
   count: 0
@@ -6371,13 +6370,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: XENON.......DESTROY EVERYT..............
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
       propertyPath: Lines.Array.data[2]
       value: n-Ratman
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: its not what it seems they are.............................
+      value: WE NEED TO ST....................
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
