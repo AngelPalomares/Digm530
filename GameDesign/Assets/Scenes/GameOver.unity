@@ -388,6 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenuScene: Main_Menu
   LoadGameScene: LoadingScene
+  LoadGameScenePrefab: {fileID: 920003642}
 --- !u!1 &728307861
 GameObject:
   m_ObjectHideFlags: 0

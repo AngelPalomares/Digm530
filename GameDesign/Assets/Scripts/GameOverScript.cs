@@ -7,6 +7,7 @@ public class GameOverScript : MonoBehaviour
 {
     public string MainMenuScene;
     public string LoadGameScene;
+    public GameObject LoadGameScenePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,15 @@ public class GameOverScript : MonoBehaviour
         PlayerController.instance.gameObject.SetActive(false);
         GameMenu.instance.gameObject.SetActive(false);
         BattleManager.instance.gameObject.SetActive(false);
+
+        if (PlayerPrefs.HasKey("Current_Scene"))
+        {
+            LoadGameScenePrefab.SetActive(true);
+        }
+        else
+        {
+            LoadGameScenePrefab.SetActive(false);
+        }
     }
 
     // Update is called once per frame
