@@ -6371,7 +6371,7 @@ PrefabInstance:
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: STOP THE....................... XENON WILL DEST............
+      value: XENON.......DESTROY EVERYT..............
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}

@@ -567,7 +567,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: Hi Daniel!
+      value: Hi Daniel, visiting with your dad today?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1142,7 +1142,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: Hi Daniel, visiting with your dad today?
+      value: Hi Daniel, how are you doing?
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1152,7 +1152,7 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: Yup, working on anything new?
+      value: Not bad just looking forward to spending the day here at the office.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
@@ -1162,8 +1162,8 @@ PrefabInstance:
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
       propertyPath: Lines.Array.data[5]
-      value: Yes actually, our team is hard at work for a product that will change
-        so many lives.
+      value: Ahh thats cool, everyone is super busy right now with this new project.
+        I am telling you its going to change the world!
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}
