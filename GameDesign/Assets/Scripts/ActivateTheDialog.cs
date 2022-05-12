@@ -35,7 +35,7 @@ public class ActivateTheDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(CanActivate && Input.GetButtonDown("Fire1") && !dialogueManager.instance.dialogbox.activeInHierarchy && !GameMenu.instance.TheMenu.activeInHierarchy)
+        if(CanActivate && Input.GetButtonDown("Fire1") && !dialogueManager.instance.dialogbox.activeInHierarchy && !GameMenu.instance.TheMenu.activeInHierarchy || CanActivate && Input.GetKeyDown(KeyCode.E) && !dialogueManager.instance.dialogbox.activeInHierarchy && !GameMenu.instance.TheMenu.activeInHierarchy)
         {
             //passes the lines to the dialog manager
             dialogueManager.instance.ShowDialog(Lines, Human);

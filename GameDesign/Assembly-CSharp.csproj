@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\PickupKeyCard.cs" />
     <Compile Include="Assets\Scripts\BattleStarter.cs" />
     <Compile Include="Assets\Scripts\BattleMagicSelect.cs" />
+    <Compile Include="Assets\Scripts\ChasingtheplayerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

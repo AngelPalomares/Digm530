@@ -38,7 +38,7 @@ public class dialogueManager : MonoBehaviour
     {
         if(dialogbox.activeInHierarchy)
         {
-            if(Input.GetButtonUp("Fire1"))
+            if (Input.GetButtonUp("Fire1") || Input.GetKeyUp(KeyCode.E))
             {       
                 if (!JustStarted)
                 {
