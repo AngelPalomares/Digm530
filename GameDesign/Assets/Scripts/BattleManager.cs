@@ -50,6 +50,8 @@ public class BattleManager : MonoBehaviour
     public int RewardXP;
     public string[] rewardItems;
 
+    public bool CannotFlee;
+
     #endregion
     private void Awake()
     {
@@ -64,10 +66,6 @@ public class BattleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            BattleStart(new string[] { "Rimuru", "Rimuru" });
-        }
 
         if(BattleActive)
         {
@@ -95,10 +93,11 @@ public class BattleManager : MonoBehaviour
     }
 
     #region Function that starts the battle
-    public void BattleStart(string[] EnemiesToSpawn)
+    public void BattleStart(string[] EnemiesToSpawn, bool SetCannotFlee)
     {
         if(!BattleActive)
         {
+            CannotFlee = SetCannotFlee;
             AudioManager.instance.PlayVGM(2);
             BattleActive = true;
 
@@ -420,20 +419,31 @@ public class BattleManager : MonoBehaviour
 
     public void Flee()
     {
-        int fleeSuccess = Random.Range(0, 100);
-
-        if(fleeSuccess < ChanceToFlee)
+        if (CannotFlee)
         {
-            //BattleActive = false;
-            //BattleScene.SetActive(false);
-            Fleeing = true;
-            StartCoroutine(EndBattleCo());
+            BattleNotice.theTest.text = "Can not flee this battle!";
+            BattleNotice.Active();
         }
         else
         {
-            NextTurn();
-            BattleNotice.theTest.text = "Couldnt Escape!";
-            BattleNotice.Active();
+
+
+
+            int fleeSuccess = Random.Range(0, 100);
+
+            if (fleeSuccess < ChanceToFlee)
+            {
+                //BattleActive = false;
+                //BattleScene.SetActive(false);
+                Fleeing = true;
+                StartCoroutine(EndBattleCo());
+            }
+            else
+            {
+                NextTurn();
+                BattleNotice.theTest.text = "Couldnt Escape!";
+                BattleNotice.Active();
+            }
         }
 
 

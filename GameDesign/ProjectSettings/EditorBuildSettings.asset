@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 99119e758d542d441b9588fefbfb398b
+  - enabled: 1
+    path: Assets/Scenes/RatMan.unity
+    guid: 09b68bd601765e948a751ad9d161e8bf
+  - enabled: 1
+    path: Assets/Scenes/LastLevel.unity
+    guid: fed13171c1affcd4db4946ee87681755
   m_configObjects: {}

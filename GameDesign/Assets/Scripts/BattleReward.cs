@@ -14,6 +14,8 @@ public class BattleReward : MonoBehaviour
     public string[] rewardItems;
     public int XPEarned;
 
+    public bool MarkQuestComplete;
+    public string QuestToMark;
     private void Awake()
     {
         instance = this;
@@ -67,5 +69,10 @@ public class BattleReward : MonoBehaviour
 
         rewardScreen.SetActive(false);
         GameManager.instance.battleActive = false;
+
+        if(MarkQuestComplete)
+        {
+            QuestManager.instance.MarkQuestComplete(QuestToMark);
+        }
     }
 }

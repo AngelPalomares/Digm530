@@ -20,7 +20,7 @@ public class QuestManager : MonoBehaviour
 
     // Update is called once per frame
     private void Update()
-    {
+    { /*
         if (Input.GetKeyDown(KeyCode.Q))
         {
             SaveQuestData();
@@ -30,6 +30,7 @@ public class QuestManager : MonoBehaviour
         {
             LoadQuestData();
         }
+        */
     }
 
     public int GetQuestNumber(string QuestToFind)
