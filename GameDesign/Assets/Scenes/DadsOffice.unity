@@ -8472,7 +8472,7 @@ PrefabInstance:
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -8482,27 +8482,35 @@ PrefabInstance:
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: He is not like any other specimen
+      value: He is not like any other specimen we have seen, results have been very
+        promising.
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: 
+      value: n-Daniel
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: 
+      value: What is all this?
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: 
+      value: See to it that the test subjects are disposed of correctly. We don't
+        want another incident on our hands.
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[5]
-      value: 
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[6]
+      value: "Dad why are you doing this? I can\u2019t believe my eyes. I need to
+        confront him on this."
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}

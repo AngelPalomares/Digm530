@@ -5833,80 +5833,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0e6dba2fbaa0b429186f95133bc56c, type: 3}
---- !u!1001 &1016445896
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7147385218268474628, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: markcomplete
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.3543913
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7147385218268474632, guid: fd7a3dff39a842a43a58e55639bfa345,
-        type: 3}
-      propertyPath: m_Name
-      value: QuestZone
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fd7a3dff39a842a43a58e55639bfa345, type: 3}
 --- !u!1001 &1137026916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6057,6 +5983,105 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1279479729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7147385218268474628, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474628, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474628, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: What? How did I end up here?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.425
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3543913
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474631, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147385218268474632, guid: fd7a3dff39a842a43a58e55639bfa345,
+        type: 3}
+      propertyPath: m_Name
+      value: QuestZone (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd7a3dff39a842a43a58e55639bfa345, type: 3}
 --- !u!1 &1663092443
 GameObject:
   m_ObjectHideFlags: 0
@@ -6182,6 +6207,239 @@ PrefabInstance:
         type: 3}
       propertyPath: QuestToMark
       value: TalkedToRatMan
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Hello Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: Who are you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[4]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: "That\u2019s not important, what\u2019s important is that you saw what
+        they are doing and your dad is at the center of Xenon."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[6]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[7]
+      value: "I don\u2019t understand."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[8]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[9]
+      value: "Xenon corps is the one calling the shots everywhere, they have done
+        countless damage to the environment, people\u2019s health and now they are
+        going to create war."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[10]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[11]
+      value: I....
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[12]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[13]
+      value: that serum you found? Compound 11 its being developed for soldiers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[14]
+      value: Your father is going to kickstart the war economy. By developing super
+        soldiers and providing them to armies all over the world but also creating
+        demand for it by letting the governments know that his company is the only
+        way that they can fight back against super powered people.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[15]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[16]
+      value: I can't believe this.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[17]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[18]
+      value: Somehow you survived, everyone whos had a taste of that serum either
+        dies or turns into a monster.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[19]
+      value: Thats what those green blobs were. Courtesy of your father.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[20]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[21]
+      value: We need to do something about it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[22]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[23]
+      value: "Yeah we\u2019re going to stop your dad. We\u2019re going to expose
+        them by hacking into the main server."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[24]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[25]
+      value: How do you know where that is?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[26]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[27]
+      value: "It\u2019s on the most secure floor in the building."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[28]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[29]
+      value: "You didn\u2019t answer my question."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[30]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[31]
+      value: Because I used to work for Xenon, I helped develop Compound 11. When
+        I learned what we were going to use it for I immediately took it up with
+        your father, he had me fired and kicked out on the street. On top of that
+        he spread rumors that I was an unethical scientist, so no one ever took me
+        seriously. The media is also owned by Xenon so that was already not an option.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[32]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[33]
+      value: How do I know if I can trust you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[34]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[35]
+      value: "You don\u2019t, but you saw what I saw as well the things Xenon has
+        been doing not just for Compound 11 but for all their products. They don\u2019t
+        have any ethics its all about profit maximization and soon your father will
+        get rich off war."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[36]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[37]
+      value: Alright, just tell me what I need to know.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[38]
+      value: n-Ratman
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[39]
+      value: We will go into the 6th floor. I go first, I can distract all the guards
+        while you plug in this USB drive into the main computer. Its going to make
+        everything that Xenon has ever done public. Out for the world to see and
+        maybe then we stand a chance against them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[40]
+      value: n-Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586693203281067157, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
+        type: 3}
+      propertyPath: Lines.Array.data[41]
+      value: Alright.
       objectReference: {fileID: 0}
     - target: {fileID: 7586693203281067158, guid: d70248dd1d4e54d4fa8952cb80d2f2cf,
         type: 3}

@@ -186,6 +186,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Bob
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Hope you are enjoying the new promotion, Richard.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: n-Richard
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: Yes sir, I was wondering though there are still some files that I can't
+        access.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[4]
+      value: Yes sir, I was wondering though there are still some files that I can't
+        access.
+      objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: m_Name
@@ -286,6 +318,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: COMPOU...........
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: This guy again?
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -1003,6 +1045,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: The final piece of the puzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: How is this happening?
+      objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: m_Name
@@ -1221,6 +1273,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Steve
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: How is the merger going?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: n-John
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: So far so good.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[4]
+      value: n-Steve
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[5]
+      value: Good, we don't want anyone snooping around the weapons division. That
+        could be trouble.
+      objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: m_Name
@@ -1289,6 +1377,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Carol
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Shipments have been sent to the middle east
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: n- Sara
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: Good its only a matter of time before we go public.
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -1514,6 +1622,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
+      propertyPath: Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: No one should.............
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
       propertyPath: shouldActivateQuest
       value: 0
       objectReference: {fileID: 0}
@@ -1591,6 +1709,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Sara
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Everything is going well in the Amazon?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: n-Steve
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: It is, theres a lot we can mine here.
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -1849,6 +1987,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Daily Globe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Xenon Corps invests in military group
+      objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: m_Name
@@ -2083,7 +2236,7 @@ PrefabInstance:
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: n-Joseph to Sarah
+      value: n-Joseph
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -2093,7 +2246,7 @@ PrefabInstance:
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: n-Sarah to Joseph
+      value: n-Sara
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -2203,7 +2356,7 @@ PrefabInstance:
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: Chemicals found near Xenon Corps factory.
+      value: Chemicals found near Xenon Corps factory. Experts say its harmless
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -2309,6 +2462,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Need to go to the 4th floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[3]
+      value: What is this?
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
@@ -2466,6 +2629,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: n-Daily Globe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037296, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: Xenon Corps stocks rise as they absorb more companies
       objectReference: {fileID: 0}
     - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
         type: 3}
