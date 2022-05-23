@@ -190,4 +190,5 @@ MonoBehaviour:
   - TalkedToRatMan
   - DefeatedFinalBoss
   - TalkedToSuperComputer
+  - EndGame
   QuestMarkersComplete: 

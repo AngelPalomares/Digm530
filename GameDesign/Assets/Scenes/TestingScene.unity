@@ -718,20 +718,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2095672373766113863, guid: 70a430ab76a4097469cf73a48739ca57,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2095672373851032528, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2095672373851032531, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.3627682
+      value: 1.0735197
       objectReference: {fileID: 0}
     - target: {fileID: 2095672373851032531, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.15013409
+      value: -0.0055098534
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095672374696173091, guid: 70a430ab76a4097469cf73a48739ca57,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2095672374977347926, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
@@ -796,7 +806,7 @@ PrefabInstance:
     - target: {fileID: 2095672375079491242, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70a430ab76a4097469cf73a48739ca57, type: 3}
@@ -1639,6 +1649,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PixelOfficeAssets_37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037297, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037298, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.16509432
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037298, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.59108394
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846883650572037298, guid: 13aba51d60d146747ab42c200d81a64a,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13aba51d60d146747ab42c200d81a64a, type: 3}
@@ -2659,20 +2689,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2095672373766113863, guid: 70a430ab76a4097469cf73a48739ca57,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2095672373851032528, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2095672373851032531, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.4897761
+      value: 1.0629182
       objectReference: {fileID: 0}
     - target: {fileID: 2095672373851032531, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.21363807
+      value: -0.0002090931
       objectReference: {fileID: 0}
     - target: {fileID: 2095672374977347926, guid: 70a430ab76a4097469cf73a48739ca57,
         type: 3}

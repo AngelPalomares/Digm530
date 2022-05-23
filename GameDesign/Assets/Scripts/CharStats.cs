@@ -57,10 +57,30 @@ public class CharStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.K))
+        if (CurrentExp >= exptonextlevel[playerleverl])
         {
-            Addexp(500);
+            CurrentExp -= exptonextlevel[playerleverl];
+
+            playerleverl++;
+
+            //determin whether to add to strentght or defense based on odd or even
+            if (playerleverl % 2 == 0)
+            {
+                Strength++;
+            }
+            else
+            {
+                Defence++;
+            }
+
+            macHP = Mathf.FloorToInt(macHP * 1.05f);
+            currentHP = macHP;
+
+            MaxMP += MPlvlBonus[playerleverl];
+            currentMP = MaxMP;
+
         }
+
     }
 
     //This function is used to calculated the amount of experience that the player has gotten
@@ -70,7 +90,7 @@ public class CharStats : MonoBehaviour
 
         if (playerleverl < maxlevel)
         {
-            if (CurrentExp > exptonextlevel[playerleverl])
+            if (CurrentExp >= exptonextlevel[playerleverl])
             {
                 CurrentExp -= exptonextlevel[playerleverl];
 

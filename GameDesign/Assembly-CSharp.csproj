@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\PlayerLoader.cs" />
     <Compile Include="Assets\Scripts\ShopKeeper.cs" />
+    <Compile Include="Assets\Scripts\ChasingtheplayerScript.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\BattleReward.cs" />
     <Compile Include="Assets\Scripts\AreaEntrance.cs" />
@@ -95,7 +96,7 @@
     <Compile Include="Assets\Scripts\PickupKeyCard.cs" />
     <Compile Include="Assets\Scripts\BattleStarter.cs" />
     <Compile Include="Assets\Scripts\BattleMagicSelect.cs" />
-    <Compile Include="Assets\Scripts\ChasingtheplayerScript.cs" />
+    <Compile Include="Assets\LoadFinal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
